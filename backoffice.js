@@ -6,14 +6,15 @@ form.addEventListener("submit", function (event) {
   const nameInput = document.getElementById("name").value;
   const descriptionInput = document.getElementById("description").value;
   const brandInput = document.getElementById("brand").value;
-  const imageUrlInput = document.getElementById("imageUrl").value;
+
   const priceInput = parseFloat(document.getElementById("price").value);
 
   const nuovoProdotto = {
     name: nameInput,
     description: descriptionInput,
     brand: brandInput,
-    imageUrl: imageUrlInput,
+    imageUrl:
+      "https://i.scdn.co/image/ab6761610000e5ebc9690bc711d04b3d4fd4b87c",
     price: priceInput,
     userId: "ID dell'utente",
   };
