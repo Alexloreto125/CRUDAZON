@@ -67,7 +67,7 @@ const generateCards = function (arrayOfBlackpink) {
                     
                     <button
                     type="button"
-                    class="btn btn-sm btn-danger"
+                    class="btn btn-sm btn-danger mb-2"
                     onclick="deleteProduct('${cards._id}'); hideColumn(this)"
                     data-product-id="${cards._id}"
                     >
